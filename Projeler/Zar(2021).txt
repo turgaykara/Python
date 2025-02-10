@@ -4,4 +4,4 @@ while True:
 
     for i in range(ZarSayı):
         zar = random.randint(1, 6)  #-> random.randint -> int için; .choice Değil, .randint kullanılır.
-        print(zar) 
+        print(zar)
