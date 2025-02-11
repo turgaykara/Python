@@ -6,15 +6,15 @@ bot = Bot()
 
 username = "kullanıcı adı"
 password = "şifre"
-sevgilim = "göndermek istediğin kişi"
+hedef = "göndermek istediğin kişi"
 
 bot.login(username=username, password=password)
 
 def gunaydin():
     message = "Python instabot try.4-again"
-    girlfriend = [sevgilim]
+    gf = [hedef]
 
-    bot.send_message(message, sevgilim)
+    bot.send_message(message, hedef)
 
 
 schedule.every().day.at("10:00").do(gunaydin)
